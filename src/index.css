@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+.NavigationBar{
+  display: flex;
+  padding-left: 80px;
+  padding-right: 90px;
+  align-items: center;
+  font-family: "Quicksand";
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.content{
+display:flex;
+flex-direction: column;
+}
+
+#title{
+  text-align: left;
+  padding-left: 50px;
+  color: #f1356d;
+}
+
+.lists{
+  align-items: right;
+  padding: 20px;
+  padding-left: 550px;
+  display: inline-block;
+}
+a{
+  padding: 20px;
+  text-decoration: dotted;
+  
+}
+a:hover{
+  color: #f1356d;
+}
+
+#welcome{
+  font-family: "Quicksand";
+  text-align: left;
+  padding-left: 130px;
+}
+
+.headlines{
+  font-family: "Quicksand";
+  text-align: left;
+  padding-left: 130px;
+}
+
+
+
+.Lorem{
+  text-align: justify;
+  padding-left: 12%;
+  left:0px;
+  width:300px;
+  
+}
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  padding-left: 5px;
+  padding-right: 90px;
+  padding-top: 10px;
+  align-items: center;
+  font-family: "Quicksand";
+  border-bottom: 1px solid #f2f2f2;
+  color: #f1356d;
+}
+
+.copyright{
+  text-align: left;
+  padding-left: 130px;
+}
+
+.policies{
+  display:flex;
+  list-style-type: none;
+  font-size: small;
+  padding-left: 120px;
+  color: #f1356d;
+}
+
+.policies:hover{
+  color:black;
+}
+
+.container{
+display:block;
+flex-direction: column;
+box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.1);
+width: 300px;
+padding-left: 0px;
+border-radius:9px;
+margin-left: 5px;
+gap: 2rem;
+flex: 0 0 auto;  
+overflow-x: auto;
+position: relative;
+}
+
+.container:hover{
+ background-color: bisque;
+
+}
+
+.desc{
+  display:block;
+  flex-direction: column;
+  padding-left: 8px;
+  padding-top: 2px;
+  
+  
+}
+
+.tag{
+  font-family: "Quicksand";
+  font-size: 15px;
+  text-align: center;
+  border: 1px 1px 1px 1px solid;
+  background-color: #f1356d;
+  color: white;
+  border-radius: 9px;
+  width: 60px;
+  padding-left: 9px;
+  text-align: center;
+}
+
+.star{
+  padding-left: 5px;
+}
+
+.image{
+border-radius:9px;
+padding-left: 0px;
+display:block;
+object-fit: cover;
+}
+
+.title{
+  font-family: "Quicksand";
+  padding-top: 2px;
+}
+
+.author{
+  font-family: "Quicksand";
+  padding-top: 2px;
+}
+
+
+.info{
+  list-style-type: none;
+  display:flex;
+  flex-direction: row;
+  padding-left: 5px;
+
+}
+.likecount{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  
+}
+
+.likestats{
+  display:flex;
+  flex-direction: row;
+  list-style-type: none;
+  padding-left: 150px;
+}
+.tag{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.card-list{
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+gap: 2px;
+overflow-x: auto;
+margin-left:130px;
+margin-right: 90px;
+}
+
+.latest-label{
+  position: absolute;
+  top:10px;
+  left:10px;
+  padding: 3px 3px;
+  color: black;
+  border-radius: 2px;
+  background-color: whitesmoke;
+  text-align: center;
+  font-weight: bold;
+}
+
+.trend-label{
+  position: absolute;
+  top:10px;
+  right:10px;
+  padding: 3px 3px;
+  color: black;
+  border-radius: 2px;
+  background-color: whitesmoke;
+  text-align: center;
+  font-weight: bold;
+}
